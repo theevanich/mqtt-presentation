@@ -82,6 +82,9 @@
 	\begin{exampleblock}
 		{Alles aus Long-Home} \ Subscriber: Long-Home/\#
 	\end{exampleblock}
+	\begin{exampleblock}
+		{Temperatursensor wert publishen} \ Publisher: Long-Home/Küche/Temperatur + "wert"
+	\end{exampleblock}
 \end{frame}
 
 \begin{frame}
@@ -96,9 +99,9 @@
 \begin{frame}
 	\frametitle{Sicherheit}
 	\begin{itemize}
-		\item MQTT selbst unterstützt nur eine Absicherung über Benutzername und Passwort.
-		\item Die Kommunikation kann mit SSL bzw. TLS auf Transportebene verschlüsselt werden.
-		\item Broker können zusätzlich Client Zertifikate für die Authentifizierung verwenden oder den Zugriff über Access Control Lists z.B. durch die Überprüfung der IP einschränken.
+		\item Absicherung über Benutzername und Passwort.
+		\item Transportebene mit SSL bzw. TLS verschlüsseln
+		\item Authentifizierung mit Client Zertifikate oder über Access Control Lists z.B. durch die Überprüfung der IP einschränken.
 	\end{itemize}
 \end{frame}
 
@@ -121,7 +124,6 @@
 
 \begin{frame}
 	\frametitle{Code} 
-	PAHO
 \end{frame}
 
 \begin{frame}

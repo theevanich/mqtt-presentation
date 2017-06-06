@@ -1,0 +1,47 @@
+
+\usepackage{listings}
+
+% Default fixed font does not support bold face
+\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{10} % for bold
+\DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{10}  % for normal
+
+% Custom colors
+\usepackage{color}
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{mypurple}{rgb}{0.627,0.126,0.941}
+\definecolor{mygreen}{rgb}{0, 0.5, 0}
+\definecolor{lemonchiffon}{rgb}{1, 0.98, 0.8}
+
+% Python style for highlighting
+\newcommand\pythonstyle{\lstset{
+numbers=left,
+backgroundcolor=\color{lemonchiffon},
+commentstyle=\itshape\fontsize{9}{1}\color{mygreen},
+language=Python,
+lineskip={-1.5pt},
+basicstyle=\ttm,
+otherkeywords={self},             % Add keywords here
+keywordstyle=\ttb\color{deepblue},
+emph={MyClass,__init__},          % Custom highlighting
+emphstyle=\ttb\color{deepred},    % Custom highlighting style
+stringstyle=\color{mypurple},
+frame=l,                         % Any extra options here
+showstringspaces=false            % 
+}}
+
+% Python environment
+\lstnewenvironment{python}[1][]
+{
+\pythonstyle
+\lstset{#1}
+}
+{}
+
+% Python for external files
+\newcommand\pythonexternal[2][]{{
+\pythonstyle
+\lstinputlisting[#1]{#2}}}
+
+% Python for inline
+\newcommand\pythoninline[1]{{\pythonstyle\lstinline!#1!}}

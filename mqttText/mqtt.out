@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section*.1}{Abk\374rzungsverzeichnis}{}% 1
+\BOOKMARK [1][-]{section.1}{Motivation}{}% 2
+\BOOKMARK [1][-]{section.2}{Was ist IoT?}{}% 3
+\BOOKMARK [1][-]{section.3}{Was ist MQTT?}{}% 4
+\BOOKMARK [1][-]{section.4}{Warum MQTT?}{}% 5
+\BOOKMARK [1][-]{section.5}{Wie Funktioniert MQTT?}{}% 6
+\BOOKMARK [2][-]{subsection.5.1}{Publish/Subscribe}{section.5}% 7
+\BOOKMARK [2][-]{subsection.5.2}{Topic}{section.5}% 8
+\BOOKMARK [2][-]{subsection.5.3}{Quality of service \(QoS\)}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.4}{Last Will Testament \(LWT\)}{section.5}% 10
+\BOOKMARK [1][-]{section.6}{Python und MQTT}{}% 11
+\BOOKMARK [2][-]{subsection.6.1}{So installiert man MQTT f\374r Python}{section.6}% 12
+\BOOKMARK [2][-]{subsection.6.2}{Test Programme}{section.6}% 13
+\BOOKMARK [1][-]{section.7}{Quellen}{}% 14
